@@ -22,7 +22,6 @@ const handleLoginAuthedUser = (credential) => {
         user.id === credential.username && user.password === credential.password
     );
     if (!!user) {
-      localStorage.setItem("authedUser", JSON.stringify(user));
       return dispatch(loginAuthedUser(user));
     } else {
       return false;
@@ -31,7 +30,6 @@ const handleLoginAuthedUser = (credential) => {
 };
 
 const handleLogoutAuthedUser = () => {
-  localStorage.removeItem("authedUser");
   return logoutAuthedUser();
 };
 
