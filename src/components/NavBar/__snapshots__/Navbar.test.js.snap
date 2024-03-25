@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should render the component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="navbar bg-base-100"
+      >
+        <div
+          class="flex-1"
+        >
+          <ul
+            class="menu menu-horizontal px-1"
+            data-testid="navbuttons"
+          >
+            <li>
+              <a
+                data-testid="home-link"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                data-testid="new-poll-link"
+                href="/add"
+              >
+                New Poll
+              </a>
+            </li>
+            <li>
+              <a
+                data-testid="LeaderBoard-link"
+                href="/LeaderBoard"
+              >
+                LeaderBoard
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="flex-2"
+        >
+          <span
+            class="mr-2"
+          >
+            <img
+              class="w-10 h-10 rounded-full"
+              src="https://avatar.iran.liara.run/username?username=undefined"
+            />
+          </span>
+          <h2
+            class="text-center text-xl mr-4"
+            data-testid="authUserName"
+          />
+          <button
+            data-testid="logout-link"
+          >
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="navbar bg-base-100"
+    >
+      <div
+        class="flex-1"
+      >
+        <ul
+          class="menu menu-horizontal px-1"
+          data-testid="navbuttons"
+        >
+          <li>
+            <a
+              data-testid="home-link"
+              href="/"
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
+              data-testid="new-poll-link"
+              href="/add"
+            >
+              New Poll
+            </a>
+          </li>
+          <li>
+            <a
+              data-testid="LeaderBoard-link"
+              href="/LeaderBoard"
+            >
+              LeaderBoard
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div
+        class="flex-2"
+      >
+        <span
+          class="mr-2"
+        >
+          <img
+            class="w-10 h-10 rounded-full"
+            src="https://avatar.iran.liara.run/username?username=undefined"
+          />
+        </span>
+        <h2
+          class="text-center text-xl mr-4"
+          data-testid="authUserName"
+        />
+        <button
+          data-testid="logout-link"
+        >
+          Logout
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
